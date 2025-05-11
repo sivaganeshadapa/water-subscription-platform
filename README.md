@@ -1,55 +1,70 @@
-# 💧 Water Subscription Platform
+# Getting Started with Create React App
 
-A full-stack web application designed to manage monthly water purifier subscriptions with real-time device integration. Built with Node.js and React, the platform supports secure online payments via Razorpay and GSM-based device status control.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## 🚀 Features
+## Available Scripts
 
-- 🔐 User Registration & Login
-- 💳 Razorpay Payment Gateway Integration
-- 📦 Subscription Management Dashboard
-- 🔄 Real-time Status Sync via GSM (Arduino/IoT)
-- 📊 Basic Admin Overview for User Plans
-- 📁 Responsive UI (Bootstrap + Custom Styling)
+In the project directory, you can run:
 
-## 🛠️ Tech Stack
+### `npm start`
 
-| Layer          | Technology            |
-|----------------|------------------------|
-| Frontend       | React, Bootstrap       |
-| Backend        | Node.js, Express.js    |
-| Database       | MongoDB (via Mongoose) |
-| Payments       | Razorpay API           |
-| IoT/Devices    | GSM Module + Arduino   |
-| Deployment     | (Optional: Render/Vercel/Heroku) |
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## 🧩 Folder Structure
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-payments2/
-├── public/
-├── src/
-│ ├── components/
-│ ├── pages/
-├── server/
-│ ├── controllers/
-│ ├── routes/
-│ ├── models/
-├── README.md
-├── package.json
+### `npm test`
 
-📡 Device Integration
-The platform integrates with Arduino (Uno/Nano) + GSM Module. Device status (ON/OFF) is controlled based on active subscription status pulled from the backend.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-🔐 Razorpay Integration
-Payments are handled securely using Razorpay Orders API. Once the payment is confirmed, the subscription is activated and reflected on the dashboard and device.
+### `npm run build`
 
-🧠 Future Enhancements
-Digital Ad Board Integration for Smart Displays
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-SMS Alerts for Recharge Reminders
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Admin Panel with Analytics and Control
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Auto-renew Subscription Options
+### `npm run eject`
 
-📜 License
-This project is licensed under the MIT License.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
